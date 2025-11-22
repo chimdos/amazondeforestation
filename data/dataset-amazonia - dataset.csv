@@ -1,4 +1,4 @@
-Data_(Mes/Ano),Area_Desmatada_km2_Mes (Y),Preco_Soja (X1),Preco_Boi_Gordo (X2),Preco_Ouro (X3),Precipitacao_mm (X4),Focos_Queimada (X5),Num_Autuacoes (X6)
+Data_(Mes/Ano),Area_Desmatada_km2_Mes (Y),Preco_Soja (X1),Preco_Boi_Gordo (X2),Preco_Ouro (X3),Precipitacao_mm (X4),Focos_Queimada (X5),Num_Atuacoes (X6)
 08/2015,592.04,347.02,141.26,131.95,4.39,20471,1771
 09/2015,497.19,323.55,143.67,141.47,7.28,29326,1828
 10/2015,536.35,327.41,147.51,141.58,48.72,19469,1765
