@@ -62,7 +62,7 @@ def load_and_train_model(file_path):
 
     return model_rf, df, features, (r2, rmse)
 
-st.title("🌲 Amazonia Predictor v2: Random Forest")
+st.title("Amazon Deforestation Analysis: Random Forest")
 st.markdown("---")
 
 file_path = "data/dataset-amazonia - dataset.csv"
@@ -70,7 +70,7 @@ model, df, features, metrics = load_and_train_model(file_path)
 
 if model is not None:
     r2, rmse = metrics
-    st.sidebar.success(f"✅ Modelo Treinado!\n\nR²: {r2:.2f}\nRMSE: {rmse:.0f} km²")
+    st.sidebar.success(f"Modelo Treinado!\n\nR²: {r2:.2f}\nRMSE: {rmse:.0f} km²")
 
     st.subheader("O que mais afeta o desmatamento?")
     importances = model.feature_importances_
